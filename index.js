@@ -43,7 +43,7 @@ const searchPlayers = () => {
                 <h6 class="card-title">Gender: ${playerData.strGender}</h6>
                 <h6 class="card-title">Height: ${playerData.strHeight}</h6>
                 <h6 class="card-title">Position: ${playerData.strPosition}</h6>
-                <p class="card-text">${playerData.strDescriptionEN ? playerData.strDescriptionEN.slice(0, 10) : 'No description available'}
+                <p class="card-text">${playerData.strDescriptionEN ? playerData.strDescriptionEN.slice(0, 90) : 'No description available'}
                 </p>                
             </div>
             <div class="modal-footer">
