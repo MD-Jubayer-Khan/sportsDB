@@ -94,7 +94,7 @@ const searchPlayers = () => {
               const div = document.createElement('div');
               div.classList.add('col');
               div.innerHTML = `
-                <div class="card h-100 shadow">
+                <div class="card h-100">
                     <img src="${player.strThumb || './img.jpg'}" class="card-img-top" alt="Player image">
                     <div class="card-body">
                         <h5 class="card-title">Name: ${player.strPlayer}</h5>
